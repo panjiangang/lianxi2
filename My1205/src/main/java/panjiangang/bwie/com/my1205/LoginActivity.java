@@ -32,7 +32,7 @@ public class LoginActivity extends BaseMvpActivity<LoginView, LoginPresenter> im
     @Override
     public void success(Bean bean) {
         System.out.println("ok" + bean.toString());
-        
+
     }
 
     @Override
